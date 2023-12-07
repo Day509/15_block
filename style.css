@@ -42,7 +42,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(/images/desert.webp) no-repeat center center fixed;
+    background: url(images/desert.webp) no-repeat center center fixed;
     background-size: cover; /* ou '100% 100%' selon votre préférence */
     background-position: center; /* ajustez au besoin */
     /* background-attachment: fixed; */ /* décommentez si vous voulez que le GIF ne défile pas */
@@ -102,7 +102,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(/images/glace.webp) no-repeat center center fixed;
+    background: url(images/glace.webp) no-repeat center center fixed;
     background-size: cover; /* ou '100% 100%' selon votre préférence */
     background-position: center; /* ajustez au besoin */
     /* background-attachment: fixed; */ /* décommentez si vous voulez que le GIF ne défile pas */
