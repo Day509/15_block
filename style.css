@@ -42,7 +42,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(desert.webp) no-repeat center center fixed;
+    background: url(/images/desert.webp) no-repeat center center fixed;
     background-size: cover; /* ou '100% 100%' selon votre préférence */
     background-position: center; /* ajustez au besoin */
     /* background-attachment: fixed; */ /* décommentez si vous voulez que le GIF ne défile pas */
@@ -102,7 +102,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(glace.webp) no-repeat center center fixed;
+    background: url(/images/glace.webp) no-repeat center center fixed;
     background-size: cover; /* ou '100% 100%' selon votre préférence */
     background-position: center; /* ajustez au besoin */
     /* background-attachment: fixed; */ /* décommentez si vous voulez que le GIF ne défile pas */
@@ -149,7 +149,64 @@ header {
     transition: 0.3s;
 }
 
-.container .button:hover {
+.container2 .button:hover {
+    background-color: rgb(5, 78, 167);
+    transform: scale(1.05);
+}
+.container3{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(images/innodations.webp) no-repeat center center fixed;
+    background-size: cover; /* ou '100% 100%' selon votre préférence */
+    background-position: center; /* ajustez au besoin */
+    /* background-attachment: fixed; */ /* décommentez si vous voulez que le GIF ne défile pas */
+}
+
+.container3 > div {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.container3 h2 {
+    color: whitesmoke;
+    font-size: 1.8em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.container3 h2 span {
+    color: rgb(17, 110, 223);
+    font-size: 3.5em;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.container3 h3 {
+    color: azure;
+    font-size: 1.4em;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.container3 .button {
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: aliceblue;
+    margin-bottom: 30px;
+    text-decoration: none;
+    background-color: rgb(17, 110, 223);
+    border-radius: 20px;
+    padding: 15px 30px;
+    transition: 0.3s;
+}
+
+.container3 .button:hover {
     background-color: rgb(5, 78, 167);
     transform: scale(1.05);
 }
