@@ -597,3 +597,143 @@ header, .navigation a {
         width: 100%;
     }
 }
+
+/* Animations au survol pour les liens */
+.navigation a:hover {
+    color: #e76f51; /* Couleur au survol */
+    transform: scale(1.05); /* Légère augmentation de la taille */
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Bouton avec animation au survol */
+.button:hover {
+    background-color: #f4a261; /* Changement de couleur */
+    transform: scale(1.1); /* Agrandissement */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Palette de couleurs pour le désert */
+.container {
+    background-color: rgba(244, 164, 96, 0.8); /* Fond orange sable */
+    color: #503d33; /* Texte marron foncé */
+}
+
+/* Palette de couleurs pour la glace */
+.container2 {
+    background-color: rgba(173, 216, 230, 0.8); /* Fond bleu clair */
+    color: #2b3d52; /* Texte bleu foncé */
+}
+
+/* Palette de couleurs pour l'inondation */
+.container3 {
+    background-color: rgba(32, 178, 170, 0.8); /* Fond vert d'eau */
+    color: #1d2731; /* Texte bleu très foncé */
+}
+
+.animate-on-scroll {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.animated {
+    opacity: 1;
+}
+header, .navigation {
+    transition: background-color 0.3s ease;
+}
+
+/* Styles pour la section quiz */
+.quiz-section {
+    min-height: 100vh;
+    background-color: #fff; /* Couleur de fond pour la section quiz */
+    /* Autres styles au besoin */
+}
+
+.quiz-section {
+    min-height: 100vh;
+    background-color: #f3f3f3; /* Couleur de fond neutre */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz-section .container5 {
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.quiz-title {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#submit-quiz {
+    background-color: #4CAF50; /* Couleur verte pour le bouton */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#submit-quiz:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.footer-section {
+    margin: 10px;
+}
+
+.footer-section h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section a {
+    font-size: 0.9em;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.footer-section a {
+    text-decoration: none;
+}
+
+.footer-bottom {
+    padding: 10px 0;
+    font-size: 0.8em;
+}
+
+/* Pour les icônes des réseaux sociaux */
+.footer-section i {
+    font-size: 1.4em;
+    margin-right: 10px;
+    color: #ccc;
+}
+
+.footer-section i:hover {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+}
+
